@@ -18,11 +18,11 @@ router.get('/:review_id/edit', (req, res, next) => {
 
 /* PUT reviews update /posts/:id/reviews/:review_id */
 router.put('/:review_id', (req, res, next) => {
-    res.send('/posts/:id/reviews/:review_id');
+    res.send('PUT /posts/:id/reviews/:review_id');
 });
 
 /* DELETE reviews destroy /posts/:id/reviews/:review_id */
-router.delete('/review_:id', (req, res, next) => {
+router.delete('/:review_id', (req, res, next) => {
     res.send('DELETE /posts/:id/reviews/:review_id');
 });
 
