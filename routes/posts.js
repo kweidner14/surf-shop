@@ -12,7 +12,7 @@ router.get('/new', (req, res, next) => {
 });
 
 /* POST posts create /posts */
-router.get('/', (req, res, next) => {
+router.post('/', (req, res, next) => {
     res.send('CREATE /posts');
 });
 
@@ -23,12 +23,12 @@ router.get('/:id', (req, res, next) => {
 
 /* GET posts edit /posts/:id/:edit */
 router.get('/:id/edit', (req, res, next) => {
-    res.send('/posts/new');
+    res.send('EDIT /posts/:id/edit');
 });
 
 /* PUT posts update /posts/:id */
 router.put('/:id', (req, res, next) => {
-    res.send('/posts/:id');
+    res.send('PUT /posts/:id');
 });
 
 /* DELETE posts destroy /posts/:id */
