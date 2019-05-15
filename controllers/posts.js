@@ -38,7 +38,7 @@ module.exports = {
 
     // Post Destroy
     async postDestroy(req, res, next) {
-        let post = await Post.findByIdAndRemove(req.params.id);
+        await Post.findByIdAndRemove(req.params.id);
         res.redirect('/posts');
     }
 };
