@@ -6,13 +6,7 @@ const Schema = mongoose.Schema;
 // so we don't need to do it manually here.
 const UserSchema = new Schema({
     email: String,
-    image: String,
-    posts: [
-        {
-            type: Schema.Types.ObjectId,
-            ref: 'Post'
-        }
-    ]
+    image: String
 });
 
 UserSchema.plugin(passportLocalMongoose);
