@@ -15,13 +15,11 @@ module.exports = {
         let posts = await Post.find({});
         res.render('posts/index', { posts, title: 'Posts Index' });
     },
-
-    // Post New
+    // Posts New
     postNew(req, res, next) {
         res.render('posts/new');
     },
-
-    //Post Create
+    // Posts Create
     async postCreate(req, res, next) {
         req.body.post.images = [];
         for(const file of req.files) {
@@ -31,38 +29,39 @@ module.exports = {
                 public_id: image.public_id
             });
         }
-
-        let response = await geocodingClient.forwardGeocode({
-            query: req.body.post.location,
-            limit: 1
-        })
+        let response = await geocodingClient
+            .forwardGeocode({
+                query: req.body.post.location,
+                limit: 1
+            })
             .send();
         req.body.post.coordinates = response.body.features[0].geometry.coordinates;
         let post = await Post.create(req.body.post);
         req.session.success = 'Post created successfully!';
         res.redirect(`/posts/${post.id}`);
     },
-
-    //Post Show
+    // Posts Show
     async postShow(req, res, next) {
         let post = await Post.findById(req.params.id).populate({
             path: 'reviews',
-            options: { sort: { '_id': -1 } }
+            options: { sort: { '_id': -1 } },
+            populate: {
+                path: 'author',
+                model: 'User'
+            }
         });
         res.render('posts/show', { post });
     },
-
-    // Post Edit
+    // Posts Edit
     async postEdit(req, res, next) {
         let post = await Post.findById(req.params.id);
         res.render('posts/edit', { post });
     },
-
-    // Post Update
+    // Posts Update
     async postUpdate(req, res, next) {
-        //find the post by id
+        // find the post by id
         let post = await Post.findById(req.params.id);
-        // check if there are any images for deletion
+        // check if there's any images for deletion
         if(req.body.deleteImages && req.body.deleteImages.length) {
             // assign deleteImages from req.body to its own variable
             let deleteImages = req.body.deleteImages;
@@ -70,7 +69,7 @@ module.exports = {
             for(const public_id of deleteImages) {
                 // delete images from cloudinary
                 await cloudinary.v2.uploader.destroy(public_id);
-                // delete images from post.images
+                // delete image from post.images
                 for(const image of post.images) {
                     if(image.public_id === public_id) {
                         let index = post.images.indexOf(image);
@@ -91,29 +90,27 @@ module.exports = {
                 });
             }
         }
-        // Update Geolocation if needed
+        // check if location was updated
         if(req.body.post.location !== post.location) {
-            let response = await geocodingClient.forwardGeocode({
-                query: req.body.post.location,
-                limit: 1
-            })
+            let response = await geocodingClient
+                .forwardGeocode({
+                    query: req.body.post.location,
+                    limit: 1
+                })
                 .send();
             post.coordinates = response.body.features[0].geometry.coordinates;
             post.location = req.body.post.location;
         }
-
         // update the post with any new properties
         post.title = req.body.post.title;
         post.description = req.body.post.description;
         post.price = req.body.post.price;
-
         // save the updated post into the db
         post.save();
-        // redirect to the show page
+        // redirect to show page
         res.redirect(`/posts/${post.id}`);
     },
-
-    // Post Destroy
+    // Posts Destroy
     async postDestroy(req, res, next) {
         let post = await Post.findById(req.params.id);
         for(const image of post.images) {
@@ -122,4 +119,4 @@ module.exports = {
         await post.remove();
         res.redirect('/posts');
     }
-};
+}

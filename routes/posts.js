@@ -25,7 +25,7 @@ router.post('/', upload.array('images', 4), asyncErrorHandler(postCreate));
 /* GET posts show /posts/:id */
 router.get('/:id', asyncErrorHandler(postShow));
 
-/* GET posts edit /posts/:id/:edit */
+/* GET posts edit /posts/:id/edit */
 router.get('/:id/edit', asyncErrorHandler(postEdit));
 
 /* PUT posts update /posts/:id */
@@ -33,7 +33,6 @@ router.put('/:id', upload.array('images', 4), asyncErrorHandler(postUpdate));
 
 /* DELETE posts destroy /posts/:id */
 router.delete('/:id', asyncErrorHandler(postDestroy));
-
 
 
 module.exports = router;
