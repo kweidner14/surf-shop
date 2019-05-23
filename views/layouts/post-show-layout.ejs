@@ -16,6 +16,7 @@
 </head>
 <body>
     <% include ../partials/navbar.ejs %>
+    <% include ../partials/flash-messages.ejs %>
     <%- body -%>
     <script>
         var post = <%- JSON.stringify(post) %>;
