@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89a16167-3e02-4b48-9caa-ba8e5071579d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/boilerplate.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/boilerplate.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/post-show-layout.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/post-show-layout.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/review.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/review.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/reviews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/posts/show.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/posts/show.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,24 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/posts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="96" column="23" lean-forward="true" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
+            <state relative-caret-position="249">
+              <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/partials/flash-messages.ejs">
+        <entry file="file://$PROJECT_DIR$/controllers/reviews.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding>
-                <element signature="e#46#67#0#HTML" expanded="true" />
-                <element signature="e#143#164#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -43,35 +39,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/posts/show.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/posts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="47" column="58" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
+            <state relative-caret-position="375">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layouts/post-show-layout.ejs">
+        <entry file="file://$PROJECT_DIR$/models/review.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="75">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layouts/boilerplate.ejs">
+        <entry file="file://$PROJECT_DIR$/routes/reviews.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="52" />
+            <state relative-caret-position="150">
+              <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -101,8 +88,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/routes/reviews.js" />
-        <option value="$PROJECT_DIR$/models/review.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/controllers/index.js" />
         <option value="$PROJECT_DIR$/middleware/index.js" />
@@ -117,7 +102,6 @@
         <option value="$PROJECT_DIR$/mapbox-test.js" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/public/stylesheets/post-show.css" />
-        <option value="$PROJECT_DIR$/views/posts/show.ejs" />
         <option value="$PROJECT_DIR$/public/javascripts/post-show.js" />
         <option value="$PROJECT_DIR$/public/javascripts/post-edit.js" />
         <option value="$PROJECT_DIR$/views/posts/edit.ejs" />
@@ -129,6 +113,10 @@
         <option value="$PROJECT_DIR$/views/partials/flash-messages.ejs" />
         <option value="$PROJECT_DIR$/views/layouts/boilerplate.ejs" />
         <option value="$PROJECT_DIR$/views/layouts/post-show-layout.ejs" />
+        <option value="$PROJECT_DIR$/models/review.js" />
+        <option value="$PROJECT_DIR$/views/posts/show.ejs" />
+        <option value="$PROJECT_DIR$/routes/reviews.js" />
+        <option value="$PROJECT_DIR$/controllers/reviews.js" />
         <option value="$PROJECT_DIR$/controllers/posts.js" />
       </list>
     </option>
@@ -167,41 +155,7 @@
             <path>
               <item name="surf-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="surf-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="surf-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="surf-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="surf-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="surf-shop" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="surf-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="surf-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="surf-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="surf-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="surf-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="surf-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="surf-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="surf-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,12 +206,12 @@
       <workItem from="1557781113612" duration="14761000" />
       <workItem from="1557875468279" duration="9284000" />
       <workItem from="1558474078227" duration="130000" />
-      <workItem from="1558474466627" duration="18654000" />
+      <workItem from="1558474466627" duration="20156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45565000" />
+    <option name="totallyTimeSpent" value="47067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="988" y="0" width="932" height="1040" extended-state="0" />
@@ -294,20 +248,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js" />
-    <entry file="file://$PROJECT_DIR$/routes/reviews.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/review.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -468,6 +408,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/boilerplate.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/post-show-layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/flash-messages.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -479,31 +433,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/boilerplate.ejs">
+    <entry file="file://$PROJECT_DIR$/models/review.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="52" />
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/posts/show.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="375">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/post-show-layout.ejs">
+    <entry file="file://$PROJECT_DIR$/routes/reviews.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state relative-caret-position="150">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/reviews.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/posts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="47" column="58" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
+        <state relative-caret-position="249">
+          <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
         </state>
       </provider>
     </entry>
