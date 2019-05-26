@@ -24,3 +24,8 @@ $('.toggle-edit-form').on('click', function() {
     //toggle visiblity of edit review form
     $(this).siblings('.edit-review-form').toggle();
 });
+
+// clear rating
+$('.clear-rating').click(function() {
+    $(this).siblings('.input-no-rate').click();
+});

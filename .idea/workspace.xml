@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89a16167-3e02-4b48-9caa-ba8e5071579d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/views/layouts/post-show-layout.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/post-show-layout.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/post-show.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/post-show.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/post-show.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/post-show.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/posts/show.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/posts/show.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,70 +19,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/post.js">
+        <entry file="file://$PROJECT_DIR$/views/posts/show.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+            <state relative-caret-position="335">
+              <caret line="64" column="80" selection-start-line="64" selection-start-column="80" selection-end-line="64" selection-end-column="80" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/post-show.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="88" column="30" lean-forward="true" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+            <state relative-caret-position="420">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/posts/show.ejs">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/post-show.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="67" column="31" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/posts/edit.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/posts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="114" column="54" lean-forward="true" selection-start-line="114" selection-start-column="54" selection-end-line="114" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/starability-basic.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8486" selection-start-column="8486" selection-end-column="8486" />
-              <folding>
-                <element signature="e#158#1191#2" expanded="true" />
-                <element signature="e#1706#3447#2" expanded="true" />
-                <element signature="e#4698#5731#2" expanded="true" />
-                <element signature="e#6334#8075#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layouts/post-show-layout.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="450">
+              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -132,8 +92,6 @@
         <option value="$PROJECT_DIR$/views/error.ejs" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/public/stylesheets/post-show.css" />
-        <option value="$PROJECT_DIR$/public/javascripts/post-show.js" />
         <option value="$PROJECT_DIR$/middleware/index.js" />
         <option value="$PROJECT_DIR$/routes/reviews.js" />
         <option value="$PROJECT_DIR$/controllers/reviews.js" />
@@ -144,6 +102,8 @@
         <option value="$PROJECT_DIR$/public/stylesheets/starability-basic.min" />
         <option value="$PROJECT_DIR$/public/stylesheets/starability-basic.min.css" />
         <option value="$PROJECT_DIR$/views/posts/show.ejs" />
+        <option value="$PROJECT_DIR$/public/stylesheets/post-show.css" />
+        <option value="$PROJECT_DIR$/public/javascripts/post-show.js" />
       </list>
     </option>
   </component>
@@ -172,6 +132,12 @@
               <item name="surf-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="surf-shop" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="surf-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="surf-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="surf-shop" type="b2602c69:ProjectViewProjectNode" />
@@ -245,12 +211,12 @@
       <workItem from="1557781113612" duration="14761000" />
       <workItem from="1557875468279" duration="9284000" />
       <workItem from="1558474078227" duration="130000" />
-      <workItem from="1558474466627" duration="35850000" />
+      <workItem from="1558474466627" duration="36559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62761000" />
+    <option name="totallyTimeSpent" value="63470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="988" y="0" width="932" height="1040" extended-state="0" />
@@ -438,20 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/post-show.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/post-show.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/middleware/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -528,10 +480,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="262" column="41" lean-forward="true" selection-start-line="262" selection-start-column="41" selection-end-line="262" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/posts/show.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="67" column="31" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+        <state relative-caret-position="335">
+          <caret line="64" column="80" selection-start-line="64" selection-start-column="80" selection-end-line="64" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/post-show.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/post-show.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
         </state>
       </provider>
     </entry>
