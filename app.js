@@ -70,7 +70,7 @@ app.use(function(req, res, next) {
     // '_id' : '5ce713776dbc0023ab27ceac',
     '_id' : '5cea191a42ac6b13ed940802',
     'username' : 'kyle3'
-  }
+  };
   res.locals.currentUser = req.user;
   // set default page title
   res.locals.title = 'Surf Shop';
