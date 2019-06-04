@@ -12,9 +12,9 @@ const User = require('./models/user');
 const session = require('express-session');
 const mongoose = require('mongoose');
 const methodOverride = require('method-override');
-const seedPosts = require('./seeds');
-
+// const seedPosts = require('./seeds');
 // seedPosts();
+
 
 // require routes
 const index 	= require('./routes/index');
@@ -40,8 +40,7 @@ app.set('view engine', 'ejs');
 // set public assets directory
 app.use(express.static('public'));
 
-// uncomment after placing your favicon in /public
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -65,12 +64,12 @@ passport.deserializeUser(User.deserializeUser());
 
 // set local variables middleware
 app.use(function(req, res, next) {
-  req.user = {
-    // '_id' : '5ce7084104c9481f539e8887',
-    // '_id' : '5ce713776dbc0023ab27ceac',
-    '_id' : '5cea191a42ac6b13ed940802',
-    'username' : 'kyle3'
-  };
+  // req.user = {
+  //   // '_id' : '5ce7084104c9481f539e8887',
+  //   // '_id' : '5ce713776dbc0023ab27ceac',
+  //   '_id' : '5cea191a42ac6b13ed940802',
+  //   'username' : 'kyle3'
+  // };
   res.locals.currentUser = req.user;
   // set default page title
   res.locals.title = 'Surf Shop';
